@@ -26,21 +26,20 @@
         function resetCookie(after) {
             document.cookie = "";
             after.display="none";
-
         }
     </script>
 </head>
 <body>
 <h1>hi</h1>
 
-<p id="before">click the button below to vibe for a little bit</p>
-<button id="vibe" type="button" onclick="setCookie(this)">vibe</button>
+<p>click the button below to vibe for a little bit</p>
+<button id="vibe" type="button" onclick="setCookie()">vibe</button>
 
 <p class="after">hell yeah!!!</p>
 
 <img class="after" src="https://c.tenor.com/d8aOlmUgeFUAAAAC/beanie-baby-flamingo.gif" alt="a flamingo just vibing">
 
-<p><button id="reset" onclick="resetCookie(this)">Reset if you want</button></p>
+<p><button id="reset" onclick="resetCookie()">Reset if you want</button></p>
 
 </body>
 
